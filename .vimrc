@@ -112,9 +112,6 @@ highlight ALEError ctermbg=none cterm=underline
 highlight ALEWarning ctermbg=none cterm=underline
 let g:ale_linters = {'python': [ 'flake8']}
 "let g:ale_python_flake8_executable = '/usr/bin/env python3'
-" Force ycm to use python3.5 (Don't need atm)
-" let g:ycm_python_binary_path = '/usr/bin/python3.5'
-" let g:ycm_python_binary_path = '/usr/bin/env python3'
 
 "YCM config
 " disable annoying preview in YMC
@@ -122,6 +119,9 @@ set completeopt-=preview
 nnoremap <leader>y :let g:ycm_auto_trigger=0<CR>
 nnoremap <leader>Y :let g:ycm_auto_trigger=1<CR>:
 let g:ycm_show_diagnostics_ui = 0
+" Force ycm to use python3.5 (Don't need atm)
+" let g:ycm_python_binary_path = '/usr/bin/python3.5'
+" let g:ycm_python_binary_path = '/usr/bin/env python3'
 
 
 " For airline plugin
