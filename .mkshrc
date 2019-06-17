@@ -1,6 +1,6 @@
 # Set PS1 and path
 PS1="$(echo '\033[01;34m$(pwd | sed "s,^$HOME,~,") \033[00m$') "
-PATH=$PATH:/home/c/scripts
+PATH=$PATH:$HOME/scripts
 
 # History
 HISTFILE="$HOME/.mksh_history"
