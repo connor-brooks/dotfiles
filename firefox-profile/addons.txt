@@ -1,0 +1,8 @@
+CanvasBlocker
+Cookie AutoDelte
+Decentraleyes
+HTTPS Everywhere
+uBlock Origin
+uMatrix
+User-Agent Switcher
+Vim Vixen
