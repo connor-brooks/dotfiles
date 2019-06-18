@@ -1,0 +1,26 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+#navigator-toolbox {
+    position: relative;
+    z-index: 1;
+    height: 1px;
+    margin-bottom: -1px; 
+    overflow: hidden;
+    transition-property: height;
+    transition-delay: 0s;
+    transition-duration: 0s;
+}
+ 
+#navigator-toolbox:hover {
+    height: 75px;
+    transition-property: height;
+    transition-duration: 0s;
+    transition-delay: 0s;
+}
+
+
+#content browser, .browserStack>browser {
+	margin-right:-17px!important;
+/*	margin-bottom:-11px!important; */
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
