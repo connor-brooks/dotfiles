@@ -63,8 +63,6 @@ inoremap <Down> <Nop>
 noremap <F3> :Autoformat<CR>
 noremap <F4> :set spell!<CR>
 set complete+=kspell
-hi clear SpellBad
-hi SpellBad cterm=underline ctermfg=red
 " show horiziontal menu (file picker)
 set wildmenu
 " Short messags
@@ -145,6 +143,8 @@ endif
 highlight clear LineNr
 highlight clear CursorLineNr
 highlight SignColumn ctermbg=black
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
 
 " For Slime
 let g:slime_target = "tmux"
