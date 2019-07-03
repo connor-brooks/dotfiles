@@ -1,6 +1,6 @@
 # Set PS1 and path
 PS1="$(echo '\033[01;34m$(pwd | sed "s,^$HOME,~,") \033[00m$') "
-PATH=$PATH:$HOME/scripts
+PATH=$PATH:/home/c/scripts
 
 # History
 HISTFILE="$HOME/.mksh_history"
@@ -18,12 +18,16 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 
 # Program aliases and functions
 alias wttr='curl wttr.in/Lewisham+UK'
+alias xip='curl ifconfig.co; curl ifconfig.co/country'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 function ytm() {
  youtube-dl -x --audio-format=mp3 $1 
 }
+
+# Re-run last command as root
+alias sudo_bb='sudo $(fc -r -l -n -1)'
 
 # Quick dirs
 alias gm='cd ~/music; ls;'
