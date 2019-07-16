@@ -27,10 +27,15 @@ function ytm() {
 }
 
 # Re-run last command as root
-alias sudo_bb='sudo $(fc -r -l -n -1)'
+alias s!!='sudo $(fc -r -l -n -1)'
+
+# Hide sxiv bottom bar
+alias sxiv='sxiv -b'
 
 # Quick dirs
 alias gm='cd ~/music; ls;'
+alias gmc='cd ~/music/classicalmisc; ls;'
+alias gme='cd ~/music/electronicmisc; ls;'
 alias gi='cd ~/images; ls;'
 alias gd='cd ~/downloads; ls;'
 alias ge='cd ~/projects/ecosim/src; ls;'
