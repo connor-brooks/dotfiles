@@ -24,3 +24,7 @@
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
+
+.urlbar-page-action {
+  display: none;
+}
