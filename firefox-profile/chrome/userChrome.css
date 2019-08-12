@@ -28,3 +28,7 @@
 .urlbar-page-action {
   display: none;
 }
+
+#PanelUI-menu-button { 
+  display: none;
+}
