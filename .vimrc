@@ -1,5 +1,4 @@
 " For Vundle, as per Github instructions
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " let Vundle manage Vundle, required
@@ -8,8 +7,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 " Latex plugin
 Plugin 'xuhdev/vim-latex-live-preview'
-
-" All of your Plugins must be added before the following line
 call vundle#end()
 "End of Plugin config
 
@@ -39,7 +36,6 @@ set hlsearch
 set ignorecase
 set smartcase
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR> "space to hide search results
-
 
 " Nice linewrapping and breaking
 set wrap
